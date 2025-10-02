@@ -1,4 +1,4 @@
-# AI Browser Agent 🌐🤖 - Kannan
+# AI Browser Agent Bot
 
 **The Next Generation of Intelligent Browser Automation**
 
@@ -35,8 +35,8 @@ Built on Playwright's async API for fast, non-blocking operations and better per
 
 ```bash
 # Clone the repository
-git clone git@github.com:manthanguptaa/real-world-llm-apps.git
-cd real-world-llm-apps/ai_browser_agent
+git clone https://github.com/AiDavinci/AI-IRL-Projects/ai-browser-agent-bot.git
+cd rAI-IRL-Projects/ai-browser-agent-bot
 
 # Install dependencies (includes Playwright)
 pip install -r requirements.txt

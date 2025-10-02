@@ -23,7 +23,7 @@ An end-to-end, multi-agent Streamlit app that automates B2B outreach using GPT-5
 Install dependencies from `requirements.txt`:
 
 ```bash
-pip install -r advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/requirements.txt
+pip install -r AI-Email-gtm-outreach-bot/requirements.txt
 ```
 
 Required environment variables (set via sidebar or your shell):
@@ -34,7 +34,7 @@ Required environment variables (set via sidebar or your shell):
 ## How to Run
 
 ```bash
-streamlit run advanced_ai_agents/multi_agent_apps/ai_email_gtm_outreach_agent/ai_email_gtm_outreach_agent.py
+streamlit run AI-Email-gtm-outreach-bot/ai_email_gtm_outreach_agent.py
 ```
 
 ## Usage

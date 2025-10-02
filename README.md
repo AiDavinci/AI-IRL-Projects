@@ -25,6 +25,8 @@ This is not polished production code (though some parts might be). It’s resear
 Below is a rough view and what each folder is / should be:
 
 AI-IRL-Projects/
+
+
 ├── ai-browser-agent-bot/       — autonomous browser-based agent experiments  
 ├── AI-Email-gtm-outreach-bot/   — projects around email outreach automation  
 ├── rag-projects/                — RAG, retrieval + embedding / knowledge systems  

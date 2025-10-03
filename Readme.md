@@ -7,17 +7,18 @@ This repository is a sandbox of AI experiments, prototypes, and full-fledged pro
 
 Here you’ll find work in:
 
-Agent systems (browser agents, autonomous bots)
+1. Agent systems (browser agents, autonomous bots)
+ 
+2. Retrieval-augmented generation and knowledge systems (RAG)
 
-Retrieval-augmented generation and knowledge systems (RAG)
+3. Email automation, outreach, and bot infrastructures
 
-Email automation, outreach, and bot infrastructures
+4. Integrations of AI with real-world tools (APIs, pipelines)
 
-Integrations of AI with real-world tools (APIs, pipelines)
-
-Exploratory projects—because we learn by building
+5. Exploratory projects—because we learn by building
 
 This is not polished production code (though some parts might be). It’s research, hacking, iteration, and continuous failure+improvement.
+
 
 📂 Repository Structure (Proposed / Existing)
 
@@ -33,56 +34,60 @@ AI-IRL-Projects/
 
 Each module should contain:
 
-A short README of its own (what it does, how to run it)
+1. A short README of its own (what it does, how to run it)
 
-Code (scripts, notebooks, modules)
+2. Code (scripts, notebooks, modules)
 
-Dependencies (e.g. requirements.txt or poetry.lock)
+3. Dependencies (e.g. requirements.txt or poetry.lock)
 
-Examples, test inputs, output samples
+4. Examples, test inputs, output samples
+
 
 🧰 Requirements & Setup
 
-Language / Runtime: Primarily Python (≥ 3.8)
+1. Language / Runtime: Primarily Python (≥ 3.8)
 
-Dependencies: Each subproject should list requirements (e.g. via requirements.txt)
+2. Dependencies: Each subproject should list requirements (e.g. via requirements.txt)
 
-API Keys / Credentials: Some projects will need credentials (OpenAI key, browser automation tokens, etc.)
+3. API Keys / Credentials: Some projects will need credentials (OpenAI key, browser automation tokens, etc.)
 
-Environment Management: Use venv, pipenv, poetry, Docker, or similar
+4. Environment Management: Use venv, pipenv, poetry, Docker, or similar
 
-Hardware Needs: Mostly CPU; GPU optional depending on model usage
+5. Hardware Needs: Mostly CPU; GPU optional depending on model usage
+
 
 📌 How to Get Started
 
 Clone the repo
-
 git clone https://github.com/AiDavinci/AI-IRL-Projects.git  
 cd AI-IRL-Projects  
 
 
-Pick a module / folder you want to explore / run
+1. Pick a module / folder you want to explore / run
 
-Read that module’s README
+2. Read that module’s README
 
-Install dependencies
+3. Install dependencies
 
-Setup your API keys or credentials
+4. Setup your API keys or credentials
 
-Run example scripts / notebooks
+5. Run example scripts / notebooks
 
-Tinker, break, build
+6. Tinker, break, build
+
+   
 
 ✅ Projects / Highlights
 
 Here are some projects you’ll find (or plan to find) here:
 
 Project	Purpose / Idea
-ai-browser-agent-bot	An AI agent that can browse web pages, interact with them, scrape, take actions in a browser environment
-AI-Email-gtm-outreach-bot	Automating targeted email outreach, integrating tracking / GTM / campaign logic
-rag-projects	Systems combining embeddings, vector databases, and LLMs to do context + knowledge retrieval
+1. ai-browser-agent-bot	An AI agent that can browse web pages, interact with them, scrape, take actions in a browser environment
+2. AI-Email-gtm-outreach-bot	Automating targeted email outreach, integrating tracking / GTM / campaign logic
+3. rag-projects	Systems combining embeddings, vector databases, and LLMs to do context + knowledge retrieval
 
 You can expand this list as you add modules.
+
 
 🧩 Contribution & Roadmap
 
